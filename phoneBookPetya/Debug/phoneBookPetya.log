@@ -1,0 +1,17 @@
+﻿  Users.cpp
+  UserRepository.cpp
+  UserManageView.cpp
+  Phones.cpp
+  PhoneRepository.cpp
+  PhoneManageView.cpp
+  phoneBook.cpp
+  LoginView.cpp
+  LinkedLists.cpp
+  Contacts.cpp
+  ContactRepository.cpp
+  ContactManageView.cpp
+  AuthService.cpp
+  AdminView.cpp
+  Generating Code...
+  phoneBookPetya.vcxproj -> C:\Users\Petya Kotova\Desktop\ConsolePhoneBook\Debug\phoneBookPetya.exe
+  phoneBookPetya.vcxproj -> C:\Users\Petya Kotova\Desktop\ConsolePhoneBook\Debug\phoneBookPetya.pdb (Partial PDB)

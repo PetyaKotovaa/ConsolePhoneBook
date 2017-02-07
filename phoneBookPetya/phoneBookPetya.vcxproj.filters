@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Entities">
+      <UniqueIdentifier>{d2901740-24e1-4104-94ad-1dcfa7e74584}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entities">
+      <UniqueIdentifier>{d3b43070-4fec-4fb5-b459-9ea14b6a79dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Views">
+      <UniqueIdentifier>{e95ef847-028a-4763-9402-daee9cb6fec3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Repositories">
+      <UniqueIdentifier>{348aa43d-db78-4e32-af57-610ebb3fb776}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tools">
+      <UniqueIdentifier>{9bfc18d0-523b-4068-8fba-36357c50f865}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Service">
+      <UniqueIdentifier>{a30a9e11-5b39-434c-90b5-11128f9b5cd8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="phoneBook.cpp" />
+    <ClCompile Include="Users.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Phones.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Contacts.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginView.cpp">
+      <Filter>Source Files\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="UserManageView.cpp">
+      <Filter>Source Files\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkedLists.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="AuthService.cpp">
+      <Filter>Source Files\Service</Filter>
+    </ClCompile>
+    <ClCompile Include="UserRepository.cpp">
+      <Filter>Source Files\Repositories</Filter>
+    </ClCompile>
+    <ClCompile Include="ContactRepository.cpp">
+      <Filter>Source Files\Repositories</Filter>
+    </ClCompile>
+    <ClCompile Include="ContactManageView.cpp">
+      <Filter>Source Files\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="PhoneManageView.cpp">
+      <Filter>Source Files\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="PhoneRepository.cpp">
+      <Filter>Source Files\Repositories</Filter>
+    </ClCompile>
+    <ClCompile Include="AdminView.cpp">
+      <Filter>Source Files\Views</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Users.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Phones.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Contacts.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginView.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="UserManageView.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedLists.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="AuthService.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="UserRepository.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Enumerator.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="ContactManageView.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="ContactRepository.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="PhoneRepository.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="PhoneManageView.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="AdminView.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
